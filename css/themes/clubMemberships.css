@@ -1,0 +1,257 @@
+﻿
+#register, #activationPage {
+    background:#039 url(../../images/bg.jpg); 
+    background-size:cover;
+    background-color: transparent;
+}
+
+img.ifcaLogo {
+padding: 50px 0 20px 0;
+width: 110px;
+}
+
+div.registerPage.ui-content.ui-body-a {
+background-color: transparent;
+padding: 0 30px;
+}
+
+input#membershipNo {
+padding: 10px 10px;
+font-size: 15px;
+}
+
+div.ui-btn.ui-input-btn.ui-corner-all.ui-shadow {
+color: white;
+opacity: 1;
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #4BA246), color-stop(1, #358841));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(top, #4BA246 0%, #358841 100%);
+border: none;
+width: 120px;
+font-size: 15px;
+font-style: normal;
+font-weight: normal;
+-moz-box-shadow:2px 2px 6px rgba(0,0,0,0.2);
+-webkit-box-shadow:2px 2px 6px rgba(0,0,0,0.2);
+box-shadow:2px 2px 6px rgba(0,0,0,0.2);
+}
+
+p.dexcriptionLabel {
+color: white;
+font-size: 15px;
+padding: 0;
+margin: 0;
+font-weight: normal;
+}
+
+p.tabButtonLabel {
+color: white;
+font-size: 15px !important; 
+padding: 0;
+margin: 0;
+font-weight: normal;
+}
+
+.ui-btn:hover, .ui-btn:active{
+    background-color: transparent !important;
+}
+
+a.ui-btn.ui-first-child,a.ui-btn.ui-last-child {
+background-color: transparent;
+width: 100;
+border: none;
+padding: 0 30px;
+}
+
+h5.newsTitle {
+color: #0D6FB6;
+}
+
+body {
+}
+
+.center {
+    text-align: center;
+}
+
+a#oneTab {
+height: 3em;
+background-color:#D8D8D8;
+}
+
+a#twoTab {
+height: 3em;
+background-color:#D8D8D8;
+}
+
+a#threeTab {
+height: 3em;
+background-color:#D8D8D8;
+}
+
+a#ui-id-4 {
+height: 3em;
+background-color:#D8D8D8;
+}
+
+.labelStyle, button.textBoxStyle.ui-btn.ui-shadow.ui-corner-all {
+    color: white;
+}
+
+.labelStyle {
+   padding: .7em 0;
+}
+
+li.transcationData.ui-li-static.ui-body-inherit, li.ui-li-divider.ui-bar-inherit.ui-first-child {
+    padding: 0;
+    font-size: 15px;
+}
+
+div.ui-bar.ui-bar-a {
+    color: black;
+     background-color: white;
+    background-image: none;
+}
+
+label.labelStyle {
+padding: 5px 0px;
+font-size: 15px;
+}
+
+button.textBoxStyle.ui-btn.ui-shadow.ui-corner-all {
+padding: 5px;
+margin: 0;
+}
+
+div.ui-bar.ui-bar-a.listHeader {
+background-color: #00507e;
+color: white;
+}
+
+label.labelStyle.dateFromTo {
+padding: 0;
+margin: 0;
+}
+
+ul.transactionListView.ui-listview.ui-listview-inset.ui-corner-all.ui-shadow {
+padding: 0;
+margin: 0;
+}
+
+
+button.btnFlight.ui-btn.ui-btn-a.ui-btn-inline.ui-shadow.ui-mini,button.btnFlightFacility.ui-btn.ui-btn-a.ui-btn-inline.ui-shadow.ui-corner-all.ui-mini {
+font-size: 10px;
+}
+
+div.ui-content.ui-body-a {
+padding: 10px;
+}
+
+div.ui-content {
+padding: 5px 10px;
+}
+
+table.ui-responsive.ui-shadow.ttable.ui-table.ui-table-columntoggle {
+margin: 0;
+}
+
+.myBooking {
+    padding: 0 -10px;
+}
+
+div#activationPage, div#register {
+background-color: white;
+}
+
+
+a#cancelBooking, div#popupDialog, .BookingIcon, a#cancelNo,div#popup_Booking,div#popup_sucessfullyBooking,.courtLabel,div#popupFacilityConfirmBooking,div#popupConfirmBooking {
+color: white;
+}
+
+.BookingIcon {
+    width: 40px;
+}
+
+
+.featuredImage {
+    height: 200px;
+    width: 400px;
+}
+
+button.cancelBookingButton {
+color: white;
+background-color: red;
+margin-left: 130px;
+font-size: 15px;
+border-radius: 20px;
+}
+
+ul#wrapper li {
+    margin-left: 10px;
+}
+
+.featuredImageBig {
+     height: 400px;
+    width: 550px;
+}
+
+.menuImage {
+    height: 40px;
+    width: 40px;
+    padding: 5px 10px 0 10px;
+}
+
+div.ui-footer.ui-bar-inherit.ui-footer-fixed.slideup {
+background-image: none;
+opacity: 0.8;
+}
+
+div.center.footerMenu {
+    position: fixed;
+    bottom:0;
+    left:0;
+    right:0;
+    background-color: #0a5e9b;
+}
+
+div#homepage,div#statement,div#myBooking,div#golf, div#facility, div#register, div#activationPage{
+max-height: 100;
+}
+
+[data-role=page]{height: 100% !important; position:relative !important;}
+/*[data-role=footer]{bottom:0; position:absolute !important; top: auto !important; width:100%;}*/ 
+
+li.ui-li-static.ui-body-inherit.ui-first-child,li.ui-li-static.ui-body-inherit {
+padding: 5px 10px;
+}
+
+div.ui-bar.ui-bar-a.credit {
+color: green;
+}
+
+
+div.ui-bar.ui-bar-a.debit {
+color: red;
+}
+
+a#btnBack_GolfPage, a#A3 ,a#A4,a#A5,a#A6,a#btnBack_FacilityPage{
+padding: 5px;
+}
+
+a#cancelBooking, a#SubmitBooking {
+background-color: green;
+text-shadow: 0 1px 0 green;
+}
+
+a#cancelNo, a#cancelComfirm{
+background-color: red;
+text-shadow: 0 1px 0 red;
+}
+
+p.menuImageLabel {
+color: white;
+font-size: 15px;
+margin: 0;
+}
