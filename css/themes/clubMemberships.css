@@ -255,3 +255,26 @@ color: white;
 font-size: 15px;
 margin: 0;
 }
+
+#splashscreen{background:#039 url(../../images/bg.jpg); background-size:cover;}
+
+#splashscreen .panel {
+    border: none;
+    border-radius: 0;
+    background-color:#1a517f;
+    color:#fff;
+    padding:45px 0;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+    text-align: center;
+}
+
+#splashscreen .panel > img{
+    width: 150px;
+    height: 80px;
+}
